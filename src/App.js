@@ -4,6 +4,7 @@ import './App.css';
 import {Route} from 'react-router-dom'
 import Navbar from './components/Navbar.js'
 import Contacts from './components/Contacts.js'
+import Bio from './components/Bio.js'
 import { withRouter } from 'react-router'
 
 
@@ -13,6 +14,7 @@ class App extends Component {
       <div className="App">
       <Route path='/' render={(props) => <Navbar/>} />
       <Route exact path="/contact" render={(props) => <Contacts />} /> 
+      <Route exact path="/bio" render={(props) => <Bio />} /> 
       </div>
     );
   }
