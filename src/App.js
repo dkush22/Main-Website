@@ -12,12 +12,14 @@ import { withRouter } from 'react-router'
 class App extends Component {
   render() {
     return (
+
       <div className="App">
       <Route path='/' render={(props) => <Navbar/>} />
       <Route exact path="/contact" render={(props) => <Contacts />} /> 
       <Route exact path="/bio" render={(props) => <Bio />} /> 
       <Route exact path="/resume" render={(props) => <Resume />} /> 
       </div>
+
     );
   }
 }
