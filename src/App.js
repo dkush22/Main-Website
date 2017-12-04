@@ -6,7 +6,9 @@ import Navbar from './components/Navbar.js'
 import Contacts from './components/Contacts.js'
 import Bio from './components/Bio.js'
 import Resume from './components/Resume.js'
+import FunStuff from './components/FunStuff.js'
 import { withRouter } from 'react-router'
+
 
 
 class App extends Component {
@@ -18,6 +20,7 @@ class App extends Component {
       <Route exact path="/contact" render={(props) => <Contacts />} /> 
       <Route exact path="/bio" render={(props) => <Bio />} /> 
       <Route exact path="/resume" render={(props) => <Resume />} /> 
+      <Route exact path="/fun" render={(props) => <FunStuff/>} />
       </div>
 
     );
