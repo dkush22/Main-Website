@@ -2,7 +2,6 @@ import React from 'react'
 import resumePic from '../Resume.png'
 
 const Resume = () => {
-
 return (
 <div className="Body">
 <div className="ui grid">

@@ -34,6 +34,8 @@ const Contacts = () => {
     </div>
   </div>
 </div>
+<br/>
+  <img src="https://media.giphy.com/media/yoJC2El7xJkYCadlWE/giphy.gif" alt=""/>
 	</div>
 
 )
