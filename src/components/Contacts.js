@@ -12,13 +12,13 @@ const Contacts = () => {
   <div className="item">
     <i className="linkedin icon" />
     <div className="content">
-      <a href="https://www.linkedin.com/in/daniel-kushel-15658a78/">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/daniel-kushel-15658a78/" target="_blank">LinkedIn</a>
     </div>
   </div>
   <div className="item">
     <i className="facebook icon" />
     <div className="content">
-      <a href="https://www.facebook.com/dkush22">Facebook</a>
+      <a href="https://www.facebook.com/dkush22" target="_blank">Facebook</a>
     </div>
   </div>
   <div className="item">
@@ -30,7 +30,7 @@ const Contacts = () => {
   <div className="item">
     <i className="github icon" />
     <div className="content">
-      <a href="https://github.com/dkush22">Github</a>
+      <a href="https://github.com/dkush22" target="_blank">Github</a>
     </div>
   </div>
 </div>
