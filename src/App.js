@@ -25,6 +25,7 @@ class App extends Component {
       <Route exact path="/projects" render={(props) => <Projects/>} />
       <Route exact path="/fun" render={(props) => <FunStuff/>} />
       <Route exact path="/" render={(props) => <Welcome/>} />
+      <div className="footer">Site made by Daniel Kushel with React and hosted on Amazon Web Services</div>
       </div>
 
     );
