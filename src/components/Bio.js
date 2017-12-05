@@ -16,7 +16,7 @@ const Bio = () => {
     	<div className="container">
       <img className="images" src={familyPic}/>
       <div className="overlay">
-      <div className="text">Enoying a wedding with my family</div>
+      <div className="text">Enjoying a wedding with my family</div>
       </div>
       </div>
     </div>
